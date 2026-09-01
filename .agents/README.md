@@ -2,7 +2,7 @@
   <h1>🚀 Marcus Fleet Enterprise Matrix (.agents)</h1>
   <p><strong>The Academic Distributed AGI Core for Feature-Sliced Design, Semantic RAG Routing, and Deterministic Autonomous DevOps.</strong></p>
 
-  ![Version](https://img.shields.io/badge/epoch-v36.0.0-blue.svg?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/epoch-v36.1.0-blue.svg?style=for-the-badge)
   ![Author](https://img.shields.io/badge/author-steveusdt-gold.svg?style=for-the-badge)
   ![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
   ![Routing](https://img.shields.io/badge/routing-Semantic%20RAG-orange.svg?style=for-the-badge)
@@ -21,9 +21,9 @@
 
 ---
 
-## 🔬 Enterprise Overview (V36.0)
+## 🔬 Enterprise Overview (V36.1)
 
-The **Marcus Fleet Enterprise Matrix** represents a paradigm shift in Large Language Model (LLM) orchestration frameworks explicitly built for Enterprise Mono-repos. Distancing itself from monolithic unstructured chat, **Version 36.0** operates as an enterprise context harness bridging **Modular Screen Generation Pipelines**, **Self-Healing Design Board Assemblers (`build_design_board.py`)**, **11 Deterministic CI Validation Gates**, **Binance Enterprise Design System (`binance/DESIGN.md`)**, **Light Mode First Mandate Governance**, **Skill Contract Governance**, **Spec-Driven Planning**, **Epic-First Development Ledgers**, **Brownfield Doc Reconciliation**, **Continuous Documentation Sync**, **Ephemeral Sandboxed Execution**, and **CI-ready release gates**.
+The **Marcus Fleet Enterprise Matrix** represents a paradigm shift in Large Language Model (LLM) orchestration frameworks explicitly built for Enterprise Mono-repos. Distancing itself from monolithic unstructured chat, **Version 36.1** operates as an enterprise context harness bridging **Strict Planning-First Governance (No Code Before `/develop`)**, **100% Local Design Token Grounding (Zero-Fabrication Rule)**, **Complete 76/76 Skill Contract Packaging**, **Modular Screen Generation Pipelines**, **Self-Healing Design Board Assemblers (`build_design_board.py`)**, **11 Deterministic CI Validation Gates**, **Binance Enterprise Design System (`binance/DESIGN.md`)**, **Light Mode First Mandate Governance**, **Skill Contract Governance**, **Spec-Driven Planning**, **Epic-First Development Ledgers**, **Brownfield Doc Reconciliation**, **Continuous Documentation Sync**, **Ephemeral Sandboxed Execution**, and **CI-ready release gates**.
 
 By binding Agents to rigorous Finite State Machines (FSM) and forcing OS interactions through secure Ephemeral Sandboxes, the Antigravity ecosystem mitigates catastrophic automated failures, token exhaustion, and context window atrophy in codebases exceeding 1 million lines.
 

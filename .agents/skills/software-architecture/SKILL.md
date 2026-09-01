@@ -7,12 +7,6 @@ description: Validate system boundaries, architecture topology, and change safet
 
 Validate system boundaries, topology, and change safety. Tie every recommendation back to a real requirement, a real write scope, and a real verification path.
 
-## When To Use
-
-- A change affects module boundaries, layering, service shape, or deployment topology.
-- The plan may introduce new infrastructure, patterns, or verification gates.
-- You need to explain why one structure is safer than another.
-
 ## Required Reads
 
 - [architecture-contract.md](references/architecture-contract.md)

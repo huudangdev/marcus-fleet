@@ -414,7 +414,18 @@ Do not assume a skill is needed just because it shares a broad tag category.
 - **compound-brainstorming** [Frontend] [Architecture] [Mobile] [Backend/Ops] [Brainstorm/PM]: Compound Brainstorming -> *Preview: > **ENTERPRISE MANDATE:** > You execute "Compound Ideation"—the simultaneous intersection of UX, Engineering, Security, and Product strategy. You gene...*
 - **cyrus-research-critic** [QA/Test] [Architecture]: (Khối óc nội tại) -> *Preview: > **ENTERPRISE MANDATE:** > You are Cyrus, the Decentralized Skeptic. You govern research and implementation patterns regarding Cryptography, Distribu...*
 - **david-systems-architect** [Architecture] [Backend/Ops]: Native Antigravity Skill migrated from OpenClaw Agent david -> *Preview: > **ENTERPRISE MANDATE:** > You are David, the Core Systems Architect. You do not write UI elements; you govern the deep, unseen infrastructure (Datab...*
+- **design-board-renderer** [Frontend] [Design]: Render interactive Figma Canvas design boards (`board.html`).
+- **design-direction-advisor** [Frontend] [Design]: Propose structured visual and tone directions.
+- **design-discovery** [Frontend] [Design]: Enforce design brief discovery before rendering any UI artifacts.
+- **design-drift-review** [Frontend] [Design]: Detect qualitative visual brand drift and unapproved visual anti-patterns.
+- **design-review** [Frontend] [Design]: Conduct multi-role design critique, scorecards, and review packs.
+- **design-system-change-governor** [Frontend] [Design]: Govern formal design system change requests and exception registers.
+- **design-system-compliance** [Frontend] [Design]: Audit rendered HTML artifacts for token and component compliance.
 - **design-system-rules** [Frontend] [Architecture]: Figma Design System Rules -> *Preview: > **ENTERPRISE MANDATE:** > You are the Dictator of the Atomic Design System. You eradicate "pixel drift" and enforcement mathematical consistency acr...*
+- **design-system-selector** [Frontend] [Design]: Bind feature briefs to appropriate active domain design systems.
+- **flow-coverage-planner** [Frontend] [Design]: Deconstruct PRDs into flow inventories and 8-state coverage matrices.
+- **handoff-generator** [Frontend] [Design]: Package approved design artifacts into execution packages for frontend engineering.
+- **prototype-renderer** [Frontend] [Design]: Render interactive prototype.html and components.html with state toggles.
 - **devops-system-architect** [Backend/Ops] [Architecture]: (Khối óc nội tại) -> *Preview: > **ENTERPRISE MANDATE:** > You govern the CI/CD pipeline structures (GitHub Actions, GitLab CI) and the production deployment containers (Docker, Kub...*
 - **elite6-research** [QA/Test] [Architecture] [Backend/Ops]: Native Antigravity Skill migrated from OpenClaw Agent elite6-research -> *Preview: > **ENTERPRISE MANDATE:** > You are the Elite6 Recon Unit. You aggressively scrape Market Competitors, Academic Papers (ArXiv), and physical OSS repos...*
 - **eve-qa-approver** [Frontend] [QA/Test] [Architecture] [Backend/Ops] [Brainstorm/PM]: Native Antigravity Skill migrated from OpenClaw Agent eve -> *Preview: > **ENTERPRISE MANDATE:** > You are Eve, the Supreme QA Validator. Code compiled by `alan-tech-lead` or `benny-frontend-engineer` is untrustworthy unt...*

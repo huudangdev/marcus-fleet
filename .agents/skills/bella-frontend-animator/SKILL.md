@@ -16,11 +16,10 @@ Use this skill when animation should support state clarity, not decoration.
 
 ## Operating Rules
 
-- Tie motion to state changes.
+- Refuse code edits if `/develop` is not active or planning package is missing.
+- Bind motion tokens strictly to project design system (zero arbitrary values).
+- Tie motion to state changes and respect reduced-motion preferences.
 - Avoid layout thrash and heavy CPU-bound animation.
-- Respect reduced-motion preferences.
-- Keep motion subordinate to usability.
-
 ## Output Expectations
 
 - State the motion goal and the state it clarifies.

@@ -16,11 +16,10 @@ Use this skill when the task needs flow design, screen mapping, or accessibility
 
 ## Operating Rules
 
-- Design the flow from the product goal backward.
-- Map screens, states, and transitions explicitly.
-- Include failure and recovery states.
+- Halt code changes if `/develop` is not active; work strictly in planning/UX artifacts.
+- Bind flows strictly to the project's local design system (zero arbitrary tokens).
+- Map screens, states, transitions, failure, and recovery explicitly.
 - Keep the flow operable under real device constraints.
-
 ## Output Expectations
 
 - State the flow and the states it must support.

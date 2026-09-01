@@ -16,11 +16,12 @@ Use this skill when the task is to improve UI clarity without breaking the exist
 
 ## Operating Rules
 
+- Halt code changes if `/develop` is not active; work strictly within design and planning artifacts.
+- Enforce 100% project design system compliance (`tokens.json`, `tailwind.config.*`, CSS Variables) with zero arbitrary token/hex fabrication.
 - Preserve the existing system unless design-system change is explicit.
 - Improve clarity before adding visual complexity.
 - Keep accessibility in view.
 - Treat tokens as reusable contract, not decoration.
-
 ## Output Expectations
 
 - State the visual issue and the smallest fix.

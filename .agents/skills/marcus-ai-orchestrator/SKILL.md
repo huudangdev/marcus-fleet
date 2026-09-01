@@ -17,11 +17,12 @@ what order, and with what boundaries.
 
 ## Operating Rules
 
+- Enforce Planning-First: If a feature/UI request is received without `/develop`, route to Planning (`/marcus.specify -> /marcus.plan` or `/planning`) and HALT before code edits.
 - Classify the task shape first.
 - Keep the skill set small.
+- Enforce 100% project design system compliance for UI tasks (zero token fabrication).
 - Sequence work by dependency, not convenience.
 - Stop when the package is not ready.
-
 ## Output Expectations
 
 - Emit a concrete routing plan with owners and stop conditions.

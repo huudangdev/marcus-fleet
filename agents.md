@@ -34,6 +34,18 @@ reliably in this environment.
 
 ## Execution Rules
 
+### 🛑 Planning-First Mandate (No Code Before /develop)
+- For ANY new feature, architectural change, or UI request, the system MUST default to the Planning Phase (`/marcus.specify -> /marcus.plan` or `/planning`).
+- Code-writing and file-editing tools (`write`, `edit`, `replace`) are STRICTLY PROHIBITED unless `/develop` is active AND a validated spec/plan package (`spec.md`, `plan.md`, `tasks.md`, `execution-brief.md` or `/docs/`) exists.
+- If an open-ended request arrives without `/develop`, clarify intent, plan the flow and state coverage, and HALT for user approval without touching source code.
+
+### 🎨 100% Design System Compliance (Zero-Fabrication Rule)
+- Before writing any frontend code or UI artifacts, you MUST inspect and bind to the project's local design system (`tailwind.config.*`, CSS Variables in `globals.css`/`tokens.css`, `tokens.json`, or `.agents/design-systems/<domain>/DESIGN.md`).
+- NEVER invent, guess, or inject arbitrary hex color codes (`#...`) outside the active token palette.
+- NEVER create ad-hoc typography scales, arbitrary spacing values, or component variants not declared in the design system.
+- Validate token compliance using `python3 .agents/scripts/validate_token_compliance.py`.
+
+### 🛠️ Runtime Verification & Discipline
 - Verify changed behavior before finalizing. Use project tests where they exist; use Playwright MCP for browser flows when the app can be started locally.
 - Keep execution bounded. If the same class of failure repeats three times without new evidence, stop guessing and report the blocker.
 - Never claim tests passed without concrete command or MCP evidence.
@@ -42,7 +54,6 @@ reliably in this environment.
 - Treat review loops and POC rehearsal as first-class gates, not documentation garnish. A feature package without challenge findings and a release recommendation is not ready.
 - When `.agents` routing changes, use `.agents/ROUTING_REGRESSION_CHECKLIST.md` to test the five core task shapes before trusting the release.
 - Treat `.agents/scripts/` as workflow-bound entrypoints, not ambient powers. A script should be run only when a workflow names it, a gate depends on its output, and a later artifact consumes that output.
-
 ## Brownfield Gate
 
 - Treat missing docs, stale docs, template-only docs, and undocumented code reality as one class of brownfield risk.
@@ -53,7 +64,7 @@ reliably in this environment.
 ## Import Boundary
 
 - Import guidance, not bulk artifacts. Ignore `.agents/node_modules`, `.agents/trustgraph-viewer/.next`, Git internals, generated files, and vendored dependencies as instruction sources.
-- Treat `.agents/.clinerules` as intent-rich but not literal: keep the testing, docs, and safety goals, while adapting tool names and commands to the current Codex environment.
+- Treat `.agents/.clinerules` as strict, binding architectural governance: enforce the planning-first mandate, design-system zero-fabrication rules, testing, docs, and safety gates unconditionally across all sessions.
 - Treat `.agents/mcp/mcp.json` as a reference catalog, not a guaranteed runnable config. Validate MCP packages before adopting them.
 - Do not trust placeholder commands, placeholder tokens, or paths to nonexistent files just because they appear in doctrine documents.
 - When `.agents` and live repo reality disagree, prefer live repo reality and note the mismatch.
@@ -82,3 +93,4 @@ reliably in this environment.
   16 templates (including `board.html`, `prototype.html`, `components.html`, `review-pack.html`), and
   11 deterministic Python validation gates in `.agents/scripts/`.
 - 2026-07-30: Upgraded `.agents` ecosystem to V36 Design OS & Modular Pipeline Architecture (Release V36.0). Added Modular Screen Generation Pipeline (`screens/screen_XX.html`), Master Self-Healing Assembler (`.agents/scripts/build_design_board.py`), 11th Deterministic Validation Gate (`validate_modular_design.py`), Binance Enterprise Design System (`binance/DESIGN.md`), 20-Screen Interactive Mobile Board (`024-binance-mobile-20-screens`), Light Mode First Mandate Enforcement, and system-wide Clean Unicode Formatting Standard (100% removal of raw LaTeX artifacts).
+- 2026-09-02: Upgraded `.agents` ecosystem to V36.1 Governance & Zero-Fabrication Design Standard (Release V36.1). Enforced Absolute Directive 1 (Planning-First Mandate: strict refusal to modify code before `/develop` or without approved planning package), Absolute Directive 2 (100% Local Design Token Grounding: zero arbitrary color/token fabrication), hardened root and `.agents/.clinerules` synchronization, removed weakening clauses in `agents.md`, standardized all 76/76 skills with `references/*.md` contracts and line limits, sanitized `trustgraph_query.py` offline fallback, and passed 100% of validation suites.

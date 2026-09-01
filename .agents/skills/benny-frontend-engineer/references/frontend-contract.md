@@ -11,10 +11,10 @@ implementation or handoff note.
 
 ## 2. Implementation Rules
 
+- Bind to active project tokens (`tokens.json`, `tailwind.config.*`, CSS Variables) with 0 arbitrary hex/spacing fabrication.
 - What must stay pure.
 - What belongs in hooks.
 - What patterns must be preserved.
-
 ## 3. Verification
 
 - Local render or test command.

@@ -1,7 +1,21 @@
-# 🛸 ANTIGRAVITY SUPREME CODING DIRECTIVE: V30.0 (THE ENTERPRISE MASTER MATRIX)
+# 🛸 ANTIGRAVITY SUPREME CODING DIRECTIVE: V36.0 (THE ENTERPRISE MASTER MATRIX)
 
-> **[ABSOLUTE DIRECTIVE: THE ZERO-DOWNTIME MANDATE]**  
-> Under no circumstances may code be written "blindly". When developing Frontend or Backend architecture, you are mathematically required to spin up the localized dev server (`npm run dev --port 3000`). Upon completing a logic block, execute OS Terminal calls (`curl`, `playwright`, or `vitest`) to validate the live DOM. A blank screen or 500 Error triggers an immediate Terminal repair loop. You must pass local testing before proceeding to subsequent tasks. The Simulated Runtime Environment is the boundary of Reality.
+> **[ABSOLUTE DIRECTIVE 1: THE PLANNING-FIRST MANDATE (NO CODE BEFORE /develop)]**  
+> 1. DEFAULT IS PLANNING: For ANY new feature, architectural shift, UI request, or non-trivial change, the system MUST DEFAULT to the Planning Phase (`/marcus.specify -> /marcus.plan` or `/planning`).
+> 2. STRICT CODE REFUSAL: Calling code-generation or file-editing tools (`write`, `edit`, `replace`) is STRICTLY FORBIDDEN unless:
+>    - The operator explicitly executes `/develop` or `/quick_fix`.
+>    - AND an approved spec/plan package (`spec.md`, `plan.md`, `tasks.md`, `execution-brief.md` or `/docs/`) exists and passes validation.
+> 3. UNPROMPTED REQUESTS: If an open-ended request is received without `/develop`, you MUST clarify intent, perform discovery, plan the flow and state coverage, and HALT for user approval without touching source code.
+
+> **[ABSOLUTE DIRECTIVE 2: 100% DESIGN SYSTEM COMPLIANCE (ZERO-FABRICATION RULE)]**  
+> 1. LOCAL DESIGN SYSTEM AS SOLE TRUTH: Before writing any frontend code or UI artifacts, you MUST inspect and bind to the project's local design system (from `tailwind.config.*`, CSS Variables in `globals.css`/`tokens.css`, `tokens.json`, or `.agents/design-systems/<domain>/DESIGN.md`).
+> 2. ZERO-FABRICATION MANDATE:
+>    - NEVER invent, guess, or inject arbitrary hex color codes (`#...`) outside the project's active token palette.
+>    - NEVER create ad-hoc typography scales, arbitrary spacing values, or component variants not declared in the design system.
+>    - Validate token compliance using `python3 .agents/scripts/validate_token_compliance.py`.
+
+> **[ABSOLUTE DIRECTIVE 3: THE RUNTIME VERIFICATION MANDATE (DURING /develop)]**  
+> During active `/develop` execution, under no circumstances may code be written "blindly". Spin up the local dev server (`npm run dev --port 3000`), validate DOM state with tools (`curl`, `playwright`, `vitest`), and pass local tests before advancing tasks.
 
 > **[THE ANTI-AMNESIA & KNOWLEDGE INJECTION PROTOCOL]**  
 > - **Identity Instantiation:** BEFORE executing any node, invoke `view_file` upon `.agents/skills/<agent_name>/SKILL.md` to internalize your Cognitive Identity.
@@ -19,13 +33,6 @@ You must synthesize architecture adhering to the Canonical 4 Pillars of Agentic 
 2. **Explainable AI (Reflection UI)**: UX components are strictly forbidden from utilizing perpetual "Loading Spinners." Expose the Machine's cognitive state via Ghost Text, Shimmer Skeletons, or Log Streamers. Implement autonomous Try/Catch Self-Healing loops prior to application crashes.
 3. **Prompt Chaining**: Deconstruct monolithic UX/API flows into sequential Stepper Pipelines (Extract $\rightarrow$ Transform $\rightarrow$ Load) driven by decoupled microservices.
 4. **Multi-Agent Orchestration**: Abstract long-term context memory into localized `/docs` or Database Nodes. Enforce hyper-modular Service-Oriented Architecture (SOA) to allow isolated Agent scaling.
-
-### 🎨 FRONTEND ENGINEERING (THE AESTHETIC IMPERATIVE)
-- **Glassmorphism Physics:** Utilize Neutral/Zinc-950 bases overlaid with backdrop-blur. Construct fluid Server-Side Event (SSE) Agentic Interfaces mapping pure Markdown streams.
-- **Typography Geometry:** Strictly bind font-rendering to 14px/16px root scales. Tracking and Leading must align geometrically to Linear/Vercel tolerances.
-- **Mathematical Spacing (4px Axis):** Margins, Padding, and Gaps MUST be multiples of 4 (e.g., 4, 8, 12, 16, 24). Arbitrary spacing numbers are classified as AI "Slop".
-- **Micro-Interactions:** Inject Framer Motion physics for state transitions (`stiffness:400, damping:30, scale:0.98`). Implement Optimistic Updates with instantaneous Rollback capabilities.
-
 ### ⚙️ BACKEND & DATA STRUCTURE (THE ARCHITECT MANDATE)
 - **The Dictatorship of Typing:** The use of `any` in TypeScript is an excommunicable offense. Schemas must be bound to `Zod` or `Valibot`. API Responses must mathematically adhere to the RFC 7807 Error schema.
 - **Structural Integrity:** Enforce Feature-Sliced Design (FSD). Mitigate N+1 Query disasters using Batch Loaders. Wrap execution layers in Idempotency keys to eradicate SPAM transactions.

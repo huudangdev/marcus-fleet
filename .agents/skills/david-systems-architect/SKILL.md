@@ -16,11 +16,10 @@ Use this skill when designing backend topology, data boundaries, service decompo
 
 ## Operating Rules
 
-- Read the validated scope before designing.
-- Keep data flow and ownership explicit.
-- Prefer simple service boundaries over novelty.
-- Block designs that cannot be verified.
-
+- Enforce Planning-First: Block code changes until `/develop` is active.
+- Keep data flow, domain boundaries, and ownership explicit.
+- Prefer simple service boundaries over unnecessary complexity.
+- Block architectures that lack a clear automated verification path.
 ## Output Expectations
 
 - State the boundaries and data flow.

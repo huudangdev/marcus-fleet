@@ -17,11 +17,10 @@ or technical handoff structure.
 
 ## Operating Rules
 
-- Convert product goals into technical constraints.
+- Enforce Planning-First: Block code implementation until `/develop` is active.
+- Convert product goals into technical constraints and boundaries.
 - Define system boundaries, data flow, and ownership clearly.
 - Block execution when the package is incomplete or stale.
-- Keep the output actionable for implementation and QA.
-
 ## Output Expectations
 
 - State the allowed and disallowed implementation boundaries.

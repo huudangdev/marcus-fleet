@@ -1,14 +1,14 @@
-# 🚀 Marcus Fleet Enterprise Operating System (`.agents` V36.0)
+# 🚀 Marcus Fleet Enterprise Operating System (`.agents` V36.1)
 
 > **Lead Architect & Author**: **`steveusdt`**  
-> **Release Epoch**: V36.0 (Modular Design OS & Self-Healing Multi-Agent Engine)  
-> **Governance**: APPROVED & PASSED (11/11 Deterministic CI Validation Gates)
+> **Release Epoch**: V36.1 (Strict Planning-First & Zero-Fabrication Design System Governance)  
+> **Governance**: APPROVED & PASSED (100% Skill Contracts & 11/11 Deterministic CI Validation Gates)
 
 ---
 
 ## 🌟 Executive Overview
 
-The **Marcus Fleet Enterprise Matrix** is a state-of-the-art LLM multi-agent orchestration ecosystem designed for high-stakes enterprise codebases and multi-screen UI design applications. Created and authored by **`steveusdt`**, Version 36.0 introduces a seamless **1-Command UX Execution Suite**, **Modular Screen Generation Pipelines (`screens/`)**, **Self-Healing Design Board Assemblers (`build_design_board.py`)**, and **11 Deterministic CI Validation Gates**.
+The **Marcus Fleet Enterprise Matrix** is a state-of-the-art LLM multi-agent orchestration ecosystem designed for high-stakes enterprise codebases and multi-screen UI design applications. Created and authored by **`steveusdt`**, Version 36.1 establishes **Strict Planning-First Execution (No Code Before `/develop`)**, **100% Local Design Token Grounding (Zero-Fabrication Rule)**, **Complete 76/76 Skill Contract Packaging**, a seamless **1-Command UX Execution Suite**, **Modular Screen Generation Pipelines (`screens/`)**, **Self-Healing Design Board Assemblers (`build_design_board.py`)**, and **11 Deterministic CI Validation Gates**.
 
 ---
 
@@ -66,4 +66,4 @@ python3 .agents/scripts/run_design_suite.py
 
 - **Lead Architect & Author**: **`steveusdt`**
 - **Repository**: Marcus Fleet Enterprise OS (`.agents`)
-- **Version**: `V36.0` (Release Date: July 30, 2026)
+- **Version**: `V36.1` (Release Date: September 02, 2026)

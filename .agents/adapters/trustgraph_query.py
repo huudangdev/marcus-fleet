@@ -56,12 +56,8 @@ def query_graph(task, target):
         print(f"""
 === 🧠 [TRUSTGRAPH OFFLINE FALLBACK] ===
 Warning: Could not connect to TrustGraph local cluster (Neo4j:7474).
-Agent Notification: Proceed with standard RAG or File-read operations.
-
-Simulated Context for '{target}' (if DB was online):
-- Coupling: [Authentication, SessionManager] rely on this module.
-- Historical Bugs: 'Race condition on token refresh (Fixed in Run_102)'
-- Preferred Style: 'Avoid unnecessary Redux, use Zustand or Context API'
+Status: Offline. Zero-Fabrication Rule Active: No fabricated context will be emitted.
+Agent Notification: Proceed with standard RAG, local file-read operations, and agents.md memory.
 ========================================""")
         sys.exit(0)
 
