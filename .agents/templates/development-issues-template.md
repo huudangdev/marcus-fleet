@@ -17,7 +17,7 @@ jira:
 ---
 
 # Epic Issues: <Name>
-
+<!-- QUY TẮC NGÔN NGỮ: Viết 100% nội dung tài liệu này bằng Tiếng Việt chuẩn mực, rõ ràng. Giữ nguyên tên code/token trong backticks. -->
 > QUALITY BAR: this file is the QA and product risk register for one epic. It
 > must be generated or reviewed with QA skill reasoning after reading code,
 > tests, docs, and related feature relationships. Do not leave template rows,

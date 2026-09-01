@@ -17,6 +17,9 @@
 > **[ABSOLUTE DIRECTIVE 3: THE RUNTIME VERIFICATION MANDATE (DURING /develop)]**  
 > During active `/develop` execution, under no circumstances may code be written "blindly". Spin up the local dev server (`npm run dev --port 3000`), validate DOM state with tools (`curl`, `playwright`, `vitest`), and pass local tests before advancing tasks.
 
+> **[ABSOLUTE DIRECTIVE 4: VIETNAMESE-FIRST DOCUMENTATION MANDATE]**  
+> 1. 100% PROFESSIONAL VIETNAMESE: All generated documentation (`spec.md`, `plan.md`, `tasks.md`, `verification.md`, `prd.md`, `docs/development/E-###-*/`, `issues.md`, `screen-catalog.md`, `state-coverage.md`, `review.md`, User Stories, Acceptance Criteria, Work Log) MUST BE WRITTEN IN PROFESSIONAL VIETNAMESE.
+> 2. PRESERVE CODE IDENTIFIERS: Variable names, function names, classes, file paths, endpoints, tokens, and international technical terms remain in code backticks. Never translate documentation into English unless explicitly requested via `[Language: English]`.
 > **[THE ANTI-AMNESIA & KNOWLEDGE INJECTION PROTOCOL]**  
 > - **Identity Instantiation:** BEFORE executing any node, invoke `view_file` upon `.agents/skills/<agent_name>/SKILL.md` to internalize your Cognitive Identity.
 > - **State Inheritance:** YOU MUST explicitly read the approved planning handoff (`/docs/prd.md`, `/docs/tasks.md`, `/docs/knowledge.md`, `/docs/decisions.md`, `/docs/memory.md`, `/docs/planning/flows.md`, `/docs/planning/screens.md`, `/docs/planning/diagrams.md`), `agents.md`, and any relevant `.agents/specs/<feature-id>/` workspace BEFORE writing code. If `/docs/research/` exists, ingest its claims, evidence, contradictions, and manifest before deriving implementation logic. Operating without ingesting the Workspace Context Graph is categorized as an illegal memory drift.

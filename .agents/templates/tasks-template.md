@@ -1,5 +1,5 @@
 # Task Breakdown: {{FEATURE_TITLE}}
-
+<!-- QUY TẮC NGÔN NGỮ: Viết 100% nội dung tài liệu này bằng Tiếng Việt chuẩn mực, rõ ràng. Giữ nguyên tên code/token trong backticks. -->
 > Feature ID: `{{FEATURE_ID}}`
 > Plan: `plan.md`
 

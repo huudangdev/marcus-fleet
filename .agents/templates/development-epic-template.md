@@ -16,7 +16,7 @@ jira:
 ---
 
 # Epic: <Name>
-
+<!-- QUY TẮC NGÔN NGỮ: Viết 100% nội dung tài liệu này bằng Tiếng Việt chuẩn mực, rõ ràng. Giữ nguyên tên code/token trong backticks. -->
 > QUALITY BAR: replace every placeholder with concrete project facts before
 > closing `/develop`. This file must explain PM-visible value, decision
 > rationale, evidence, risks, Mermaid diagram, and the exact implementation

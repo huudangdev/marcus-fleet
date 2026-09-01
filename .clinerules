@@ -17,6 +17,9 @@
 > **[LỆNH TỐI THƯỢNG CẤP ĐỘ AGI 3: KIỂM ĐỊNH RUNTIME TRONG PHA /develop (LUẬT CẤM NHẮM MẮT CODE)]**  
 > Khi đang thực thi `/develop`, Mày BẮT BUỘC Mở Server ngầm `npm run dev --port 3000`. Cứ code xong một khối, Dùng OS Terminal cào DOM (`curl` / `vitest` / `playwright`) duyệt lỗi Live. Trắng màn hình = Sửa ngay lập tức trên Terminal OS. Pass mới được gõ Màn hình tiếp theo. Môi trường Mô Phỏng này là Chân lý sống còn!
 
+> **[LỆNH TỐI THƯỢNG CẤP ĐỘ AGI 4: CHUẨN MỰC TÀI LIỆU TIẾNG VIỆT (VIETNAMESE-FIRST DOCS MANDATE)]**  
+> 1. **100% TIẾNG VIỆT CHUYÊN NGHIỆP**: Toàn bộ tài liệu sinh ra (`spec.md`, `plan.md`, `tasks.md`, `verification.md`, `prd.md`, `docs/development/E-###-*/`, `issues.md`, `screen-catalog.md`, `state-coverage.md`, `review.md`, User Stories, Acceptance Criteria, Work Log) BẮT BUỘC PHẢI VIẾT BẰNG TIẾNG VIỆT chuẩn xác, mạch lạc và tường minh.
+> 2. **GIỮ NGUYÊN ĐỊNH DANH KỸ THUẬT**: Tên biến, hàm, class, file path, REST endpoints, JSON keys, token names, và thuật ngữ chuyên ngành quốc tế (như `WebSocket`, `Zod`, `Redux`, `JWT`, `FSM`) giữ nguyên dạng mã nguồn trong dấu backtick. CẤM tự ý dịch tài liệu sang Tiếng Anh trừ khi người dùng yêu cầu rõ `[Language: English]`.
 > **[GIAO THỨC NHẬP HỒN VẬT LÝ VÀ TIẾP NẠN KIẾN THỨC BẮT BUỘC (ANTI-AMNESIA)]**  
 > - **Identity Instantiation:** MỖI KHI ĐƯỢC GIAO ROLE MỚI, Gọi Tool đọc tệp `.agents/skills/<tên_agent>/SKILL.md` để Nạp Cấu Hình Tính Cách.
 > - **State Inheritance:** BẮT BUỘC đọc trực tiếp file sở hữu gốc (`/docs/prd.md`, `/docs/tasks.md`, `/docs/knowledge.md`, `/docs/decisions.md`, `/docs/memory.md`, `/docs/planning/flows.md`, `/docs/planning/screens.md`, `/docs/planning/diagrams.md`), `agents.md`, và thư mục `.agents/specs/<feature-id>/` TRƯỚC KHI CODE. Nếu có `/docs/research/`, nạp đầy đủ claims, evidence, contradictions trước khi sinh logic.

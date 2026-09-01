@@ -1,6 +1,6 @@
 {
-  "version": "36.1.0",
-  "headline": "V36.1: Strict Planning-First & Zero-Fabrication Design System Governance",
+  "version": "36.2.0",
+  "headline": "V36.2: Vietnamese-First Documentation Mandate & Unicode Substance Validation",
   "highlights": [
     "Modular Screen Generation Pipeline: Each screen is rendered to screens/screen_XX.html with dedicated token budget.",
     "Master Self-Healing Assembler: build_design_board.py auto-scaffolds and compiles modular screens into master board.html.",
@@ -16,7 +16,7 @@
     "Run `python3 .agents/scripts/run_design_suite.py --feature <feature-path>` to run all 11 design gates."
   ],
   "onboarding_prompts": [
-    "Read `V36.1_RELEASE_NOTES.md` for the full overview of the V36.1 Governance & Design OS.",
+    "Read `V36.2_RELEASE_NOTES.md` for the full overview of the V36.2 Language Governance & Documentation OS.",
     "Always clarify requirements before planning: do not invent assumptions if intent, scope, or platform constraints are unclear.",
     "Enforce Planning-First: Never modify code before /develop or without approved spec/plan package.",
     "Enforce 100% Design Token Fidelity: Never invent arbitrary hex codes or tokens outside the project design system."

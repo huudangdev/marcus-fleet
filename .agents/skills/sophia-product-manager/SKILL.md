@@ -17,6 +17,7 @@ or a handoff-ready spec package.
 
 ## Operating Rules
 
+- Write 100% of product documentation, requirements, and acceptance criteria in professional Vietnamese.
 - Start with the product problem, not the solution.
 - Reduce scope until one workflow and one measurable outcome remain.
 - Write requirements in concrete, testable language.

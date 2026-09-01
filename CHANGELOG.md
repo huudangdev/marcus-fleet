@@ -2,6 +2,18 @@
 
 All notable changes to the Marcus Fleet Enterprise OS ecosystem will be documented in this file.
 
+## [36.2.0] - 2026-09-02
+
+### Added
+- **Absolute Directive 4: Vietnamese-First Documentation Mandate**: Mandated 100% Vietnamese output for all generated documentation (`spec.md`, `plan.md`, `tasks.md`, `verification.md`, `prd.md`, `docs/development/E-###-*/`, `issues.md`, `screen-catalog.md`, `state-coverage.md`, `review.md`, User Stories, Acceptance Criteria, Work Log) while preserving code identifiers in backticks.
+- **Template Scaffolding Language Headers**: Added Vietnamese guidance directives across all spec and development templates in `.agents/templates/`.
+- **Documentation Skills Language Governance**: Hardened `sophia-product-manager`, `noah-agile-product-owner`, `development-ledger-architect`, and `alan-tech-lead` with Vietnamese output rules.
+
+### Changed
+- **Unicode Word Count in Substance Validation**: Upgraded `markdown_word_count` in `validate_docs_substance.py` to regex `\b[\w/-]+\b`, ensuring full Unicode support for Vietnamese diacritics without word undercounting.
+
+---
+
 ## [36.1.0] - 2026-09-02
 
 ### Added

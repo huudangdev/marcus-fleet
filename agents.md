@@ -45,6 +45,9 @@ reliably in this environment.
 - NEVER create ad-hoc typography scales, arbitrary spacing values, or component variants not declared in the design system.
 - Validate token compliance using `python3 .agents/scripts/validate_token_compliance.py`.
 
+### 🇻🇳 Vietnamese-First Documentation Mandate
+- All generated documentation (`spec.md`, `plan.md`, `tasks.md`, `verification.md`, `prd.md`, `docs/development/E-###-*/`, `issues.md`, `screen-catalog.md`, `state-coverage.md`, `review.md`, User Stories, Acceptance Criteria, Work Log) MUST be written in professional, clear, and unambiguous Vietnamese.
+- Keep technical terms, variable/function names, endpoints, and token identifiers in standard code backticks.
 ### 🛠️ Runtime Verification & Discipline
 - Verify changed behavior before finalizing. Use project tests where they exist; use Playwright MCP for browser flows when the app can be started locally.
 - Keep execution bounded. If the same class of failure repeats three times without new evidence, stop guessing and report the blocker.
@@ -94,3 +97,4 @@ reliably in this environment.
   11 deterministic Python validation gates in `.agents/scripts/`.
 - 2026-07-30: Upgraded `.agents` ecosystem to V36 Design OS & Modular Pipeline Architecture (Release V36.0). Added Modular Screen Generation Pipeline (`screens/screen_XX.html`), Master Self-Healing Assembler (`.agents/scripts/build_design_board.py`), 11th Deterministic Validation Gate (`validate_modular_design.py`), Binance Enterprise Design System (`binance/DESIGN.md`), 20-Screen Interactive Mobile Board (`024-binance-mobile-20-screens`), Light Mode First Mandate Enforcement, and system-wide Clean Unicode Formatting Standard (100% removal of raw LaTeX artifacts).
 - 2026-09-02: Upgraded `.agents` ecosystem to V36.1 Governance & Zero-Fabrication Design Standard (Release V36.1). Enforced Absolute Directive 1 (Planning-First Mandate: strict refusal to modify code before `/develop` or without approved planning package), Absolute Directive 2 (100% Local Design Token Grounding: zero arbitrary color/token fabrication), hardened root and `.agents/.clinerules` synchronization, removed weakening clauses in `agents.md`, standardized all 76/76 skills with `references/*.md` contracts and line limits, sanitized `trustgraph_query.py` offline fallback, and passed 100% of validation suites.
+- 2026-09-02: Upgraded `.agents` ecosystem to V36.2 Vietnamese-First Documentation Mandate & Unicode Substance Validation (Release V36.2). Enforced Absolute Directive 4 (100% Vietnamese output across all generated specifications, planning docs, user stories, acceptance criteria, and development ledgers), upgraded `validate_docs_substance.py` word count to support Unicode Vietnamese diacritics, injected Vietnamese directives across all `.agents/templates/`, and hardened documentation skills.

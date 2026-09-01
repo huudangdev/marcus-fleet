@@ -1,5 +1,5 @@
 # Implementation Plan: {{FEATURE_TITLE}}
-
+<!-- QUY TẮC NGÔN NGỮ: Viết 100% nội dung tài liệu này bằng Tiếng Việt chuẩn mực, rõ ràng. Giữ nguyên tên code/token trong backticks. -->
 > Feature ID: `{{FEATURE_ID}}`
 > Spec: `spec.md`
 > Constitution: `.agents/memory/constitution.md`

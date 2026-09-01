@@ -17,7 +17,7 @@ jira:
 ---
 
 # Task: <Name>
-
+<!-- QUY TẮC NGÔN NGỮ: Viết 100% nội dung tài liệu này bằng Tiếng Việt chuẩn mực, rõ ràng. Giữ nguyên tên code/token trong backticks. -->
 > QUALITY BAR: this note must explain exactly what was done, why it was done,
 > what files changed, what evidence exists, and what the next agent should know.
 > Include Mermaid. Do not leave placeholders, pending verification, or unchecked

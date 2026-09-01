@@ -17,6 +17,7 @@ sequencing, and handoff-ready work.
 
 ## Operating Rules
 
+- Write 100% of backlog tickets, user stories, and acceptance criteria in professional Vietnamese.
 - Preserve product intent, but reduce it into assignable units.
 - Order tickets by dependency, not by wishful priority.
 - Reject tasks without acceptance criteria, owner, and docs target.

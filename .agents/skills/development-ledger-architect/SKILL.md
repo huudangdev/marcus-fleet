@@ -14,12 +14,12 @@ Use this skill when creating, validating, migrating, or auditing development doc
 
 ## Operating Rules
 
+- Write 100% of development ledger notes, work logs, and summaries in professional Vietnamese.
 - Use epic-first topology and canonical IDs.
 - Keep docs specific, visual, and traceable.
 - Reconcile stale or template-only docs before implementation proceeds.
 
 ## Output Expectations
-
 - State what docs must change and why.
 - Identify the owning epic and related artifacts.
 - Describe the validation commands that must pass.

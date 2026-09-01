@@ -18,7 +18,7 @@ jira:
 ---
 
 # Feature: <Name>
-
+<!-- QUY TẮC NGÔN NGỮ: Viết 100% nội dung tài liệu này bằng Tiếng Việt chuẩn mực, rõ ràng. Giữ nguyên tên code/token trong backticks. -->
 > QUALITY BAR: this is a PM and engineering handoff, not a stub. Explain user
 > value, implementation reasoning, exact code paths, evidence, risks, and what
 > changed in docs. Include Mermaid. Do not leave placeholders or unchecked boxes.
