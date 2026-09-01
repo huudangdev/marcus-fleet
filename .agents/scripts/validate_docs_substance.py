@@ -82,6 +82,8 @@ def markdown_word_count(text: str) -> int:
     text = re.sub(r"`[^`]+`", " ", text)
     text = re.sub(r"^---.*?---", " ", text, flags=re.DOTALL)
     return len(re.findall(r"[\w][\w-]*", text))
+
+
 def is_skipped(relpath: str, include_development: bool) -> bool:
     if relpath.startswith("docs/development/") and include_development:
         return False
